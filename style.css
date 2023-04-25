@@ -1,0 +1,105 @@
+form, fieldset, button, a {
+    all: unset;
+}
+html, body {
+    margin: 0;
+    height: 100%;
+}
+strong {
+    font-weight: 900;
+}
+em {
+    color: rgb(116, 77, 44);
+}
+body {
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header {
+    position: relative;
+    width: 35%;
+    display: flex;
+    align-items: center;
+}
+.splash {
+    position: absolute;
+    height: 100%;
+    min-width: 100%;
+}
+.logo-frame {
+    position: absolute;
+    width: 100%;
+    background-color: rgb(0, 0, 0, .75);
+}
+.logo-frame:hover {
+    background-color: rgba(151, 0, 0, 0.75);
+}
+.logo {
+    max-width: 100%;
+    max-height: 100%;
+}
+.logo:hover {
+    content: url(logo_alt.png);
+}
+.content-body {
+    position: relative;
+    max-width: 65%;
+    background-color: rgb(235, 242, 242);
+}
+.message {
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 4vw;
+    padding-top: 8vw;
+    padding-bottom: 4vw;
+}
+.form-area {
+    padding: 2vw 4vw;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgb(186, 186, 186);
+}
+.sign-up-message {
+    font-size: 20px;
+    font-weight: 700;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+fieldset {
+    display: flex;
+}
+div.form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2vw;
+    width: 20vw;
+}
+label {
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(96, 103, 56);
+}
+input {
+    font-size: 20px;
+}
+button[type= submit] {
+    width: fit-content;
+    padding: 8px 6vw;
+    margin-left: 4vw;
+    margin-top: 34px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(123, 129, 50);
+    border-radius: 8px;
+}
+.login-prompt {
+    padding-left: 4vw;
+}
+.login {
+    color: rgb(101, 141, 22);
+}
+.login:hover {
+    cursor: pointer;
+    color: rgb(75, 105, 15);
+}
