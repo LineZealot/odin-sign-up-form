@@ -93,6 +93,13 @@ button[type= submit] {
     background-color: rgb(123, 129, 50);
     border-radius: 8px;
 }
+button[type= submit]:hover {
+    background-color: rgb(96, 101, 39);
+}
+button[type= submit]:active {
+    background-color: rgb(74, 78, 30);
+    color: rgb(213, 212, 212);
+}
 .login-prompt {
     padding-left: 4vw;
 }
